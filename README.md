@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Free React / Next.js landing page template
 
 ![Open React / Next.js template preview](https://github.com/user-attachments/assets/522a5e46-2a0e-48ca-80eb-87c7fa58f3ea)
@@ -89,3 +90,7 @@ We're an Italian developer/designer duo creating high-quality design/code resour
 ## Stay in the loop
 
 If you would like to know when we release new resources, you can follow [@pacovitiello](https://x.com/pacovitiello) and [@DavidePacilio](https://x.com/DavidePacilio) on X, or you can subscribe to our [newsletter](https://cruip.com/newsletter/).
+=======
+# soul-words-fe
+site for words 
+>>>>>>> 1a94a2cc0ce8361ef3132c79bb9a27cad2acee6c
