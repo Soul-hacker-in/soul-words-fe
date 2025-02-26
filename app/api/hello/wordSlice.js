@@ -119,21 +119,21 @@ const wordSlice = createSlice({
         state.status = "failed";
         state.error = action.error.message;
       });
-    builder
-      .addCase(loggedIn.pending, (state) => {
-        state.status = "loading";
-      })
-      .addCase(loggedIn.fulfilled, (state, action) => {
-        state.status = "succeeded";
-        state.isLoggedIn = true; // Set login status to true
-        state.userData = action.payload; // Save user data in the state
-      })
-      .addCase(loggedIn.rejected, (state, action) => {
-        state.status = "failed";
-        state.error = action.error.message;
-        state.isLoggedIn = false; // Ensure that the user is not logged in on failure
-        state.userData = null; // Clear any user data in case of failure
-      });
+    // builder
+    //   .addCase(loggedIn.pending, (state) => {
+    //     state.status = "loading";
+    //   })
+    //   .addCase(loggedIn.fulfilled, (state, action) => {
+    //     state.status = "succeeded";
+    //     state.isLoggedIn = true; // Set login status to true
+    //     state.userData = action.payload; // Save user data in the state
+    //   })
+    //   .addCase(loggedIn.rejected, (state, action) => {
+    //     state.status = "failed";
+    //     state.error = action.error.message;
+    //     state.isLoggedIn = false; // Ensure that the user is not logged in on failure
+    //     state.userData = null; // Clear any user data in case of failure
+    //   });
   },
 });
 
